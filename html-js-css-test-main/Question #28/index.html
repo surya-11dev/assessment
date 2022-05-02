@@ -1,0 +1,28 @@
+<!-- 
+    Table dosen't fit all foods.
+
+    Dynamically increase and decrease the rows and columns of the table on press of the button
+
+ -->
+
+<html>
+
+<head>
+    <title>add/remove dynamic rows in html table</title>
+</head>
+
+<body>
+    <input type="button" value="add row" onclick="addrow('datatable')" />
+    <input type="button" value="add col" onclick="addCol('datatable')" />
+    <table id="datatable" width="350px" border="1">
+        <tr>
+            <td>
+                <input type="button" name="button1" value="delete" onclick="removerow('button1')" />
+            </td>
+            <td>1</td>
+            <td><input type="text" value="" name="nametxt" /></td>
+        </tr>
+    </table>
+</body>
+
+</html>

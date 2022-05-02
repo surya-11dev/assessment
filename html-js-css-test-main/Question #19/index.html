@@ -1,0 +1,78 @@
+<!-- 
+    check the depth of an object
+
+//data
+
+{"countries":[
+    {
+        "name":"USA",
+
+        "grandfathers":[
+            {
+                "gFName":"Steve",
+                "grandfathersKid":[
+                    {
+                        "gFKName": "Linda",
+                        "kid": [{
+                            "name": "Steve JR", 
+                            "friends": [{
+                                "name": "Kriss|John|Martin|Steven"
+                            }]
+                        }
+                        ]
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+     name: "Canada",
+     people: [
+       {
+          name: "Steve",
+          children: [
+            {
+               name: "Linda",
+               children: [
+                 {
+                    name: "Steve, Jr.",
+                    friends: [
+                      {
+                         name: "Kriss"
+                      }
+                      //, more friends
+                    ]
+                 }
+                 //, more grandchildren
+               ]
+            }
+            //, more parents
+          ]
+       }
+       //, more grandparents
+     ]
+   }
+]}
+
+
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

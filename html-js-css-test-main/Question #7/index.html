@@ -1,0 +1,43 @@
+<!-- 
+
+    the modal form is not closing, can you close that please
+    
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <title>Form not closing</title>
+</head>
+
+<body class="container">
+
+    <button class="btn" id="openModal" data-model="modal-id">Open Form</button>
+
+    <div class="modal" id="modal-id">
+        <a class="modal-overlay" aria-label="Close"></a>
+        <form class="modal-container">
+            <div class="modal-header">
+                <a href="#close" class="btn btn-clear float-right" aria-label="Close"></a>
+                <div class="modal-title h5">Submit the Form</div>
+            </div>
+            <div class="modal-body">
+                <div class="content">
+                    <!-- content here -->
+                    
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

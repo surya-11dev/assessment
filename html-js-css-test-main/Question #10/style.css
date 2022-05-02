@@ -1,0 +1,7 @@
+.card-list li {
+    box-shadow: 0px 0px 4px 0px #33c4f025;
+    border: 1px solid #33c4f0;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 0.5em;
+}

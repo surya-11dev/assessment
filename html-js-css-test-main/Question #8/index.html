@@ -1,0 +1,112 @@
+<!-- 
+
+    Give away your locations
+    
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <title>Form not closing</title>
+</head>
+
+<body class="container">
+    <div class="row">
+
+
+        <div class="col-6">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-3 col-sm-12">
+                        <label class="form-label">Address Line 1</label>
+                    </div>
+                    <div class="col-9 col-sm-12">
+                        <input class="form-input" type="text" placeholder="Adddress Line 1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-3 col-sm-12">
+                        <label class="form-label">Address Line 2</label>
+                    </div>
+                    <div class="col-9 col-sm-12">
+                        <input class="form-input" type="text" placeholder="Address Line 2">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-3 col-sm-12">
+                        <label class="form-label">Area / Locality</label>
+                    </div>
+                    <div class="col-9 col-sm-12">
+                        <input class="form-input" type="text" placeholder="Area or Locality">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-3 col-sm-12">
+                        <label class="form-label">Country</label>
+                    </div>
+                    <div class="col-9 col-sm-12">
+                        <select class="form-select">
+                            <option>Choose Country</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-3 col-sm-12">
+                        <label class="form-label">State</label>
+                    </div>
+                    <div class="col-9 col-sm-12">
+                        <select class="form-select">
+                            <option>Choose State</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-3 col-sm-12">
+                        <label class="form-label">City</label>
+                    </div>
+                    <div class="col-9 col-sm-12">
+                        <select class="form-select">
+                            <option>Choose City</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-3 col-sm-12">
+                        <label class="form-label">Pincode</label>
+                    </div>
+                    <div class="col-9 col-sm-12">
+                        <input class="form-input" type="number" placeholder="Pincode">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <pre class="code" data-lang="JS"><code>
+            {
+            addressLine1 : ""
+            addressLine2 : ""
+            area-locality : ""
+            city : ""
+            state : ""
+            country : ""
+            pincode : ""
+            }
+            </code></pre>
+        </div>
+
+    </div>
+
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
